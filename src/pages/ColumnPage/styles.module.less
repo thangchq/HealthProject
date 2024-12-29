@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 100px;
+}
+
+.containerScroll {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.containerScrollContent {
+  overflow-x: scroll;
+  display: grid;
+  column-gap: 50px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6px;
+  row-gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+
+}
+
+.button {
+  font-size: 14px;
+  color: white;
+  width: 296px;
+  height: 56px;
+  font-weight: 300;
+  background-image: linear-gradient(to right top, #ffcc21, #ffbe27, #ffb02e, #ffa335, #ff963c);
+  border-radius: 4px;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  align-self: center;
+}
+
+.buttonTop {
+  display: flex;
+  align-self: flex-end;
+  margin-right: -20px;
+  margin-top: -20px;
+  width: 48px;
+  // position: absolute;
+  height: 48px;
+  z-index: 99;
+  cursor: pointer;
+}

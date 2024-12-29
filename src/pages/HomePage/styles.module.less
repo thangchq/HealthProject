@@ -1,0 +1,191 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerBody {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 100px;
+}
+
+.containerScroll {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+
+.containerScrollContent {
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  row-gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.containerScrollMenu {
+  overflow-x: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+.containerParentExercise {
+  padding: 16px;
+  margin-top: 50px;
+  background-color: #2E2E2E;
+}
+
+.containerChart {
+  padding: 16px;
+  background-color: #2E2E2E;
+  display: flex;
+  flex: 1;
+  height: 312px;
+  // flex-wrap: nowrap;
+}
+
+.containerTop {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+}
+
+.containerScrollExercise {
+  overflow-y: scroll;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 12px;
+  row-gap: 6px;
+  list-style: none;
+  background-color: #2E2E2E;
+  max-height: 400px;
+}
+
+.containerScrollExercise::-webkit-scrollbar-thumb {
+  background: #FFCC21;
+  width: 2px;
+}
+
+.containerScrollExercise::-webkit-scrollbar {
+  width: 2px;
+}
+
+.button {
+  font-size: 14px;
+  color: white;
+  width: 296px;
+  height: 56px;
+  font-weight: 300;
+  background-image: linear-gradient(to right top, #ffcc21, #ffbe27, #ffb02e, #ffa335, #ff963c);
+  border-radius: 4px;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buttonTop {
+  display: flex;
+  align-self: flex-end;
+  margin-right: -20px;
+  margin-top: 20px;
+  width: 48px;
+  height: 48px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.textTitle {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.textDark {
+  font-size: 22px;
+  color: #414141;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.textContent {
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  background-color: #FF963C;
+  padding: 3px 6px;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 56px;
+  height: 24px;
+  border-radius: 11px;
+  background-color: #ffffff;
+  margin-right: 12px;
+}
+
+.mainPhoto {
+  height: 312px;
+  width: 100%;
+}
+
+.circleIcon {
+  height: 181px;
+  width: 181px;
+}
+
+.left {
+  width: 40%;
+  position: relative;
+}
+
+.textLeft {
+  font-size: 28px;
+  color: white;
+  margin-left: 10px;
+}
+
+.textPercent {
+  font-size: 18px;
+  color: white;
+  position: absolute;
+}
+
+.percent {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  height: 312px;
+  top: 0px;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}

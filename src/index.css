@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, Hiragino, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin:0; 
+   padding: 0px;
+   display: flex;
+   height: 100vh;
+}
+
+html, body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: 'Hiragino',sans-serif !important;
+}
+
+@font-face {
+  font-family: "Hiragino";
+  src: url("@/assets/font/hiragino-kaku-gothic-pro-w3.otf");
+}
+

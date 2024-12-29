@@ -1,0 +1,12 @@
+
+html, body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "hiragino";
+  src: url("./fonts/hiragino-kaku-gothic-pro-w3.otf");
+}

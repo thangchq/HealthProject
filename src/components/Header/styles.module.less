@@ -1,0 +1,74 @@
+.container {
+  background-color: #2E2E2E;
+  height: 64px;
+  width: 100%;
+}
+
+.containerBody {
+  padding: 6px 120px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerLeft {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerItem {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.iconLogo {
+  width: 109px;
+  height: 40px;
+  padding-top: 6px;
+}
+
+.textTitle {
+  font-size: 16px;
+  font-weight: '300';
+  color: #FFFFFF;
+  margin-left: 6px;
+}
+
+.drawerContainer {
+  padding: 0px;
+  :global {
+    .ant-drawer-body {
+      background-color: #777777;
+    }
+    .ant-drawer-header {
+      background-color: #777777;
+      border-bottom: 1px solid #595959;
+    }
+  }
+}
+
+.menu {
+  background-color: #777777 !important;
+  margin: 0px;
+  :global {
+    .ant-menu-item-divider {
+      border-color: #595959;
+    }
+     .ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child {
+      background-color: transparent !important;
+    }
+  }
+}
